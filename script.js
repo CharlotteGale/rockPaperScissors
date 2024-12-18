@@ -10,7 +10,6 @@ function getComputerChoice() {
           return "scissors";
      }
 }
-console.log(getComputerChoice())
 
 function getHumanChoice() {
      let userChoice = prompt("Rock, Paper or Scissors?").toLowerCase() 
@@ -21,7 +20,6 @@ function getHumanChoice() {
           return getHumanChoice();
      }
 }
-console.log(getHumanChoice())
 
 let humanScore = 0;
 let computerScore = 0;

@@ -1,0 +1,36 @@
+body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 25%;
+     width: 100%;
+     font-family: 'Open Sans', sans-serif;
+     background-color: rgba(67, 106, 62, 0.776);
+     color: rgb(205, 216, 204);
+}
+.ui-container {
+     display: flex;
+     flex-direction: column;
+}
+.results-container,
+.score-container {
+     margin: auto;
+}
+.btn-container {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.gameBtn {
+     width: 25%;
+     height: auto;
+     padding: 2%;
+     background-color: rgba(49, 78, 45, 0.851);
+     color: rgb(205, 216, 204);
+     border-radius: 30%;
+     border-style: 1px solid rgba(1, 77, 14, 0.802);
+}
+.gameBtn:hover {
+     background-color: rgba(94, 150, 87, 0.851);
+     cursor: pointer;
+}
